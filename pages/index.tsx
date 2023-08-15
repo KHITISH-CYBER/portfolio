@@ -32,19 +32,18 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Sambit Sankalp</title>
+        <title>Khitish Kumar Sahoo</title>
         <meta name="description" content="Developer | Designer" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Container>
         <Header />
         <About />
-        <Skills />
+        {/* <Skills /> */}
         <Experience />
         <Projects />
         <Education />
-        <Achievement />
+        {/* <Achievement /> */}
         <Contact />
         <Footer />
       </Container>

@@ -15,13 +15,13 @@ export const educationData: EducationDataProps[] = [
   {
     degree: 'Higher Secondary Education',
     school: 'SAI International School, Bhubaneshwar',
-    date: '2018 - 2020',
-    url: 'https://odishavikash.com/',
+    date: '2017 - 2019',
+    url: 'https://saiinternational.edu.in/',
   },
   {
     degree: 'Secondary Education',
     school: 'Saint Joseph School, Kendrapara',
-    date: '2006-2018',
-    url: 'http://davcda.org/',
+    date: '2005-2017',
+    url: 'https://sjskendrapara.com/',
   },
 ];

@@ -61,7 +61,7 @@ const ProjectCard = ({ data }: ProjectDataProps) => {
               </span>
             ))}
           </p>
-          <div className="flex justify-center items-center md:items-start mt-4">
+          {/* <div className="flex justify-center items-center md:items-start mt-4">
             {data.links.map(({ name, url, icon }, index) => (
               <React.Fragment key={`${url}-${index}`}>
                 <Link
@@ -96,7 +96,7 @@ const ProjectCard = ({ data }: ProjectDataProps) => {
                 </Link>
               </React.Fragment>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

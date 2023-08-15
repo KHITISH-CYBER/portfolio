@@ -15,7 +15,7 @@ const ContactCard = () => {
         </div>
         <div className="flex justify-center items-center text-base font-semibold text-gray-900">
           <a
-            href="mailto:sambit.sankalp.official@gmail.com"
+            href="mailto:khitishkumar07@gmail.com"
             target="_blank"
             rel="noreferrer"
           >

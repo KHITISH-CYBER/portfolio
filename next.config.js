@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['res.cloudinary.com'],
+    domains: ['asset.cloudinary.com','res.cloudinary.com','drive.google.com'],
   },
   async redirects() {
     return [

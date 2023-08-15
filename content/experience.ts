@@ -5,104 +5,61 @@ export interface experienceInterface {
   companyLogo: string;
   companyLink: string;
   description: string;
-  technologies: string[];
 }
 
 export const experienceData: experienceInterface[] = [
   {
-    company: 'Micorsoft India Pvt Ltd',
-    position: 'Software Engineering Intern',
-    date: 'May 2023 - June 2023',
+    company: 'Career Development Centre, NITR',
+    position: 'Placement Coordinator ',
+    date: 'May 2023 - Present',
     companyLogo:
-      'https://res.cloudinary.com/sambitsankalp/image/upload/v1688819590/2048px-Microsoft_logo.svg_sbsuqt.png',
+      'https://res.cloudinary.com/da8nxkd2u/image/upload/v1692127892/NITR_efvmmh.avif',
     companyLink: 'https://www.microsoft.com/',
-    description: `- Worked on creating meaningful and interactive graph visualization library to analyse the numeric CSV data for analyst using WebGL and d3-force.
-    - Enhanced force and data computation algorithms, adjusting force strength and utilizing web workers, boosting graph performance by 33%.
-    - Along with adding meaningfulness and interactivity, made the graph informative for the analyst on interaction with the graph.
+    description: `- I serve as a liaison between Institute, companies, and students to fa‐
+    cilitate smooth on‐campus placements.Leveraging proactive commu‐
+    nication and strategic networking to attract companies, ensuring a
+    streamlined recruitment process.
     `,
-    technologies: ['Typescript', 'HTML', 'CSS', 'WebGL', 'Three.js', 'D3.js'],
   },
   {
-    company: 'InfyBytes AI Labs',
-    position: 'Full Stack Developer Intern',
-    date: 'Jan 2023 - Apr 2023',
+    company: 'Student Activity Centre, NIT Rourkela',
+    position: 'Convener of INNOVISION',
+    date: 'August 2022 - April 2023',
     companyLogo:
-      'https://res.cloudinary.com/sambitsankalp/image/upload/v1679692378/hw_cwprpd.png',
+      'https://res.cloudinary.com/da8nxkd2u/image/upload/v1692127947/INNO_LOGO_h2uf9x.jpg',
     companyLink: 'https://www.thehomeworkapp.ai/',
-    description: `- Collaborated with a team of software engineers and product managers to improve the product in terms of performance and functionality.
-    - Worked on optimising API by adding the pagination and implementing caching using webhooks of hasura resulting in API improving the performance of website.
-    - Worked on developing tracking migration progress screens and fixed various dashboard bugs to improve the existing functionalities of dashboard websites.
-    - Integrated dashboard with various hasura subscription, mutation and queries.
+    description: `- Orchestrated the INNOVISION fest, Eastern India’s largest techno‐
+    management event,with a footfall of 15k+ students, leading a team
+    of 300 individuals and managing 18 teams. Organized 60+ events,
+    attracting 4500+ students from other institutes and fostering collab‐
+    oration with administrative authorities
     `,
-    technologies: [
-      'React',
-      'Next.js',
-      'HTML',
-      'CSS',
-      'Typescript',
-      'Redux',
-      'Hasura',
-      'GraphQL',
-      'SQL',
-      'Node',
-      'Express',
-      'PostgreSQL',
-      'AWS',
-    ],
+    
   },
   {
-    company: 'Skilzen',
-    position: 'Frontend Developer Intern',
+    company: ' HACKNITR 4.O',
+    position: ' Lead Organiser',
     date: 'Feb 2023 - Apr 2023',
     companyLogo:
-      'https://res.cloudinary.com/sambitsankalp/image/upload/v1679852533/skilzen_mgmdih.jpg',
+      'https://res.cloudinary.com/da8nxkd2u/image/upload/v1692128374/HN_jommfq.png',
     companyLink: 'https://www.skilzen.com/',
-    description: `- Collaborated with other frontend interns and product managers to improve the product in terms of features and performance.
-    - Worked on integrating graphql queries with frontend using directus and graphql.
-    - Updated the frontend screens by redefining the CSS and increasing the responsiveness of the website.
-    - Optimized code by reducing redundant code and increasing dynamic components in the code base.
+    description: `- Led team of 30+ individuals in PR and Management for the largest
+    student‐run hackathon of India with 5k+ footfall
     `,
-    technologies: [
-      'React',
-      'Next.js',
-      'Typescript',
-      'HTML',
-      'CSS',
-      'Directus',
-      'GraphQL',
-      'Apollo',
-    ],
+   
   },
   {
     company: 'Monday Morning',
-    position: 'Technical Coordinator',
-    date: 'Aug 2021 - Apr 2023',
+    position: 'Campus Journalist',
+    date: 'Aug 2021 - May 2022',
     companyLogo:
       'https://res.cloudinary.com/sambitsankalp/image/upload/v1679862202/MM_Logo_rjovsx.png',
     companyLink: 'https://mondaymorning.nitrkl.ac.in/',
-    description: `- Have shifted the website from ReactJS to NextJS, worked on SEO, and adding
-    Opengraph meta tags. Worked with Apollo Client for the server-side rendering of
-    data in NextJS.
-    - Have worked on developing the application of Monday Morning, which includes
-    developing the screens by integrating it with GraphQL.
-    - Contributed to the flutter project by experiencing various flutter packages like
-    flutter-graphql, flutter-markdown and auto-route.
+    description: `- Contributed as Campus Journalist leading NITR’s student e‐
+    newsletter. Coordinated 60+ member team, crafting 30+ impactful
+    articles, editorials, and addressing campus issues. Interviewed
+    Deans, SAC President, professors, showcasing adept teamwork.
     `,
-    technologies: [
-      'React',
-      'Next.js',
-      'Typescript',
-      'HTML',
-      'CSS',
-      'GraphQL',
-      'Node',
-      'Express',
-      'MongoDB',
-      'Apollo',
-      'Dart',
-      'Flutter',
-      'Firebase',
-      'Riverpod',
-    ],
+   
   },
 ];

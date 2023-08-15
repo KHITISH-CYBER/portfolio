@@ -16,7 +16,6 @@ const ExperienceCard: FC<ExperienceCardProps> = ({ data }) => {
     position,
     date,
     companyLink,
-    technologies,
   } = data;
   return (
     <div className="w-full hover:cursor-pointer hover:shadow-lg p-2 bg-[#f3f3f6] rounded-md mt-5">
@@ -41,16 +40,8 @@ const ExperienceCard: FC<ExperienceCardProps> = ({ data }) => {
           >
             {company}
           </Link>
-          <p className="hidden md:block text-sm">
-            <strong>Technologies: </strong>
-            {technologies.join(', ')}
-          </p>
         </div>
       </div>
-      <p className="md:hidden text-sm">
-        <strong>Technologies: </strong>
-        {technologies.join(', ')}
-      </p>
       <ReactMarkdown className="ml-6 text-sm md:text-base mt-3 md:mt-0">
         {description}
       </ReactMarkdown>

@@ -10,7 +10,7 @@ const Header = () => {
     <div className="w-full mt-5 flex justify-between items-center">
       <div className="flex justify-center items-center">
         <Image
-          src={headerData.imageUrl}
+          src="https://res.cloudinary.com/da8nxkd2u/image/upload/v1692127046/profile_pic_aa1tkj.jpg"
           alt={headerData.name}
           width={32}
           height={32}

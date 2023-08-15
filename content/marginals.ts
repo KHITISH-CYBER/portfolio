@@ -18,23 +18,23 @@ export const socialIcons: footerLinkInterface[] = [
   {
     icon: Github,
     name: 'Github',
-    url: 'https://github.com/sambit-sankalp/',
+    url: 'https://github.com/KHITISH-CYBER',
   },
   {
     icon: Linkedin,
     name: 'Linkedin',
-    url: 'https://www.linkedin.com/in/sambit-sankalp/',
+    url: 'https://www.linkedin.com/in/khitish-kumar-sahoo-15a473206/',
   },
   {
     icon: Email,
     name: 'Email',
-    url: 'mailto:sambit.sankalp.official@gmail.com',
+    url: 'khitishkumar07@gmail.com',
   },
 ];
 
 export const headerData: headerInterface = {
-  name: 'Sambit Sankalp',
+  name: 'Khitish',
   imageUrl:
-    'https://res.cloudinary.com/sambitsankalp/image/upload/v1680622552/82284130_thuxay.png',
-  resumeLink: '/resume.pdf',
+    '/public/profile pic.jpg',
+  resumeLink: 'https://drive.google.com/file/d/1ApZ64t5OANQZ7NwL8cP7odNphOrk84He/view?usp=sharing',
 };

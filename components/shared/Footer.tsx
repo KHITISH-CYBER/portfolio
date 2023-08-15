@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="w-full my-3 mt-5 flex justify-between items-center">
       <h5 className="text-sm sm:text-lg">
-        © {new Date().getFullYear()} Sambit Sankalp
+        © {new Date().getFullYear()} Khitish Kumar Sahoo
       </h5>
       <div className="flex justify-start items-end">
         {socialIcons.map(({ name, url, icon }) => (
